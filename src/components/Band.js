@@ -6,7 +6,7 @@ class Band extends Component {
     return(
       <div>
       <li>
-        {this.props.band.name}
+        {this.props.band.name}<br />
       </li>
       </div>
     );
